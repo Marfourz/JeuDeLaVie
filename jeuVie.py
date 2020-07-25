@@ -63,7 +63,7 @@ class JeuVie(Canvas):
         if(self.gettags(self.determinerNumero(event.x,event.y))[0] == "white"):
             self.itemconfig(self.determinerNumero(event.x,event.y),fill="black",tag="black")
         else:
-            self.itemconfig(self.determinerNumero(event.x,event.y),fill="black",tag="white")
+            self.itemconfig(self.determinerNumero(event.x,event.y),fill="white",tag="white")
         
 
     def commencer(self):
